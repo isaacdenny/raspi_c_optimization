@@ -11,10 +11,22 @@ A group project focused on different optimization techniques and levels in progr
 - [ ] General Code Motion - All?
 
 ## Steps
+1. Add code examples to a folder titled your assignment:
 
-1. Compile with each optimization level on the pi's
-2. Profile with Massif - Memory and cache performance changes from original to optimized
-3. Document all info in a table below
+```
+constant_folding/
+    - example1.c
+    - example2.c
+    - ...
+loop_unrolling/
+    - example1.c
+    - example2.c
+    - ...
+```
+
+3. Compile with each optimization level on the pi's
+4. Profile with Massif - Memory and cache performance changes from original to optimized
+5. Document all info in a table below
 
 ## Results
 
