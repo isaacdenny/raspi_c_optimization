@@ -1,0 +1,25 @@
+#include <math.h>
+#include <stdio.h>
+
+int isPrime(int x) {
+    int i;
+    int max = sqrt(x) + 1; // Move the calculation outside the loop
+    for (i = 2; i < max; i++) {
+        if (x % i == 0) {
+            return 0;
+        }   
+    }   
+    return 1;
+}
+
+int main() {
+    int num = 5000000;
+    int primeCount = 0;
+    for (int i = 2; i <= num; i++) {
+        if (isPrime(i)) {
+            primeCount++;
+        }   
+    }   
+    printf("Total primes: %d\n", primeCount);
+    return 0;
+}
