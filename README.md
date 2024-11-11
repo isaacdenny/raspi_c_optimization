@@ -15,12 +15,12 @@ A group project focused on different optimization techniques and levels in progr
 
 ```
 constant_folding/
-    - example1.c
-    - example2.c
+    - optimized.c
+    - unoptimized.c
     - ...
 loop_unrolling/
-    - example1.c
-    - example2.c
+    - optimized.c
+    - unoptimized.c
     - ...
 ```
 
@@ -30,7 +30,36 @@ loop_unrolling/
 
 ## Results
 
-TODO: We'll place results here in tables
+### Subexpression Elimination ***SEE***
+
+The table below shows runtime per System/Example combo
+
+| System/Example   |   -O0    |   -O1    |   -O2    |   -O3    | 
+| ---------------- | -------- | -------- | -------- | -------- |
+| PC/Optimized     | 0.129317 | 0.051817 | 0.056084 | 0.055378 |
+| PC/Unoptimized   | 0.166281 | 0.051825 | 0.055457 | 0.054935 |
+| Rasp/Optimized   | -------- | -------- | -------- | -------- |
+| Rasp/Unoptimized | -------- | -------- | -------- | -------- |
+
+The table below shows Memory Usage per System/Example combo in MB
+
+| System/Example   |   -O0    |   -O1    |   -O2    |   -O3    | 
+| ---------------- | -------- | -------- | -------- | -------- |
+| PC/Optimized     |   15.27  |   15.27  |   15.27  |   15.27  |
+| PC/Unoptimized   |   15.27  |   15.27  |   15.27  |   15.27  |
+| Rasp/Optimized   | -------- | -------- | -------- | -------- |
+| Rasp/Unoptimized | -------- | -------- | -------- | -------- |
+
+The table below shows total instruction count per System/Example combo in millions
+
+| System/Example   |   -O0    |   -O1    |   -O2    |   -O3    | 
+| ---------------- | -------- | -------- | -------- | -------- |
+| PC/Optimized     |   75.50  |   25.91  |   17.57  |   17.57  |
+| PC/Unoptimized   |   109.8  |   25.91  |   17.57  |   17.57  |
+| Rasp/Optimized   | 0.129317 | 0.051817 | 0.056084 | 0.055378 |
+| Rasp/Unoptimized | 0.129317 | 0.051817 | 0.056084 | 0.055378 |
+
+
 
 ## Challenges faced
 
