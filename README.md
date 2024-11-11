@@ -30,8 +30,8 @@ loop_unrolling/
 
 ## Device Info
 
-PC (spock - cloud system on campus) - 6.8GB of user-available space
-Raspberry Pi's - 95MB of user-available space
+- [ ] PC (spock - cloud system on campus) - 6.8GB of user-available space
+- [ ] Raspberry Pi's - 95MB of user-available space
 
 ## Results
 ## Loop Invariant Code Motion Results
