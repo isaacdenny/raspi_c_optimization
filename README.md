@@ -38,8 +38,8 @@ The table below shows runtime per System/Example combo
 | ---------------- | -------- | -------- | -------- | -------- |
 | PC/Optimized     | 0.129317 | 0.051817 | 0.056084 | 0.055378 |
 | PC/Unoptimized   | 0.166281 | 0.051825 | 0.055457 | 0.054935 |
-| Rasp/Optimized   | -------- | -------- | -------- | -------- |
-| Rasp/Unoptimized | -------- | -------- | -------- | -------- |
+| Rasp/Optimized   | 0.093649 | 0.078177 | 0.073390 | 0.070039 |
+| Rasp/Unoptimized | 0.111432 | 0.078179 | 0.073462 | 0.070319 |
 
 The table below shows Memory Usage per System/Example combo in MB
 
@@ -47,8 +47,8 @@ The table below shows Memory Usage per System/Example combo in MB
 | ---------------- | -------- | -------- | -------- | -------- |
 | PC/Optimized     |   15.27  |   15.27  |   15.27  |   15.27  |
 | PC/Unoptimized   |   15.27  |   15.27  |   15.27  |   15.27  |
-| Rasp/Optimized   | -------- | -------- | -------- | -------- |
-| Rasp/Unoptimized | -------- | -------- | -------- | -------- |
+| Rasp/Optimized   |   15.27  |   15.27  |   15.27  |   15.27  |
+| Rasp/Unoptimized |   15.27  |   15.27  |   15.27  |   15.27  |
 
 The table below shows total instruction count per System/Example combo in millions
 
@@ -56,8 +56,8 @@ The table below shows total instruction count per System/Example combo in millio
 | ---------------- | -------- | -------- | -------- | -------- |
 | PC/Optimized     |   75.50  |   25.91  |   17.57  |   17.57  |
 | PC/Unoptimized   |   109.8  |   25.91  |   17.57  |   17.57  |
-| Rasp/Optimized   | -------- | -------- | -------- | -------- |
-| Rasp/Unoptimized | -------- | -------- | -------- | -------- |
+| Rasp/Optimized   |   81.18  |   19.19  |   17.29  |   13.95  |
+| Rasp/Unoptimized |   104.1  |   19.19  |   17.29  |   13.95  |
 
 
 
@@ -75,7 +75,6 @@ The SEE technique did not affect heap memory allocation as much as it affected i
 ---
 
 2. Which techniques provided the most improvement on the Raspberry Pi, and why?
-
 
 
 
