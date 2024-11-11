@@ -28,6 +28,11 @@ loop_unrolling/
 4. Profile with Massif - Memory and cache performance changes from original to optimized
 5. Document all info in a table below
 
+## Device Info
+
+- [ ] PC (spock - cloud system on campus) - 6.8GB of user-available space
+- [ ] Raspberry Pi's - 95MB of user-available space
+
 ## Results
 
 ### Subexpression Elimination ***SEE***
