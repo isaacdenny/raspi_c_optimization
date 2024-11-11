@@ -1,0 +1,28 @@
+## Loop Invariant Code Motion Results
+
+The table below shows runtime per System/Example combo
+
+| System/Example      | -O0       | -O1       | -O2       | -O3       |
+|---------------------|-----------|-----------|-----------|-----------|
+| PC/Optimized        |           |           |           |           |
+| PC/Unoptimized      |           |           |           |           |
+| Rasp/Optimized      |           |           |           |           |
+| Rasp/Unoptimized    |           |           |           |           |
+
+The table below shows Memory Usage per System/Example combo in MB
+
+| System/Example      | -O0       | -O1       | -O2       | -O3       |
+|---------------------|-----------|-----------|-----------|-----------|
+| PC/Optimized        |           |           |           |           |
+| PC/Unoptimized      |           |           |           |           |
+| Rasp/Optimized      |           |           |           |           |
+| Rasp/Unoptimized    |           |           |           |           |
+
+The table below shows total instruction count per System/Example combo in millions
+
+| System/Example      | -O0       | -O1       | -O2       | -O3       |
+|---------------------|-----------|-----------|-----------|-----------|
+| PC/Optimized        |           |           |           |           |
+| PC/Unoptimized      |           |           |           |           |
+| Rasp/Optimized      |           |           |           |           |
+| Rasp/Unoptimized    |           |           |           |           |
