@@ -56,8 +56,8 @@ The table below shows total instruction count per System/Example combo in millio
 | ---------------- | -------- | -------- | -------- | -------- |
 | PC/Optimized     |   75.50  |   25.91  |   17.57  |   17.57  |
 | PC/Unoptimized   |   109.8  |   25.91  |   17.57  |   17.57  |
-| Rasp/Optimized   | 0.129317 | 0.051817 | 0.056084 | 0.055378 |
-| Rasp/Unoptimized | 0.129317 | 0.051817 | 0.056084 | 0.055378 |
+| Rasp/Optimized   | -------- | -------- | -------- | -------- |
+| Rasp/Unoptimized | -------- | -------- | -------- | -------- |
 
 
 
@@ -65,3 +65,42 @@ The table below shows total instruction count per System/Example combo in millio
 
 TODO: challenges we faced 
 
+## Reflection Questions
+
+1. How did each optimization technique impact memory usage according to Massif,
+and why?
+
+The SEE technique did not affect heap memory allocation as much as it affected instruction count and runtime. Runtime and instruction count heavily decreased when using SEE.
+
+---
+
+2. Which techniques provided the most improvement on the Raspberry Pi, and why?
+
+
+
+
+---
+
+3. How does knowing these optimizations influence your coding approach, especially
+for devices like Raspberry Pi?
+
+Knowing these optimization techniques gives us a look underneath the hood of the compiler and helps us understand how memory can be affected by our coding principles.
+
+
+
+---
+
+4. How would you selectively apply these optimizations in memory-constrained
+environments?
+
+
+
+---
+
+5. How does this knowledge affect algorithm development, and how would you apply
+it in real-world coding?
+
+Knowledge of certain principles like loop-invariant code motion can be a great optimization tool to sqeeze runtime out of algorithms in an interview or work environment. 
+
+
+---
