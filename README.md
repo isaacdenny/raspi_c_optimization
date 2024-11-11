@@ -64,7 +64,17 @@ The table below shows total instruction count per System/Example combo in millio
 | Rasp/Optimized   |   81.18  |   19.19  |   17.29  |   13.95  |
 | Rasp/Unoptimized |   104.1  |   19.19  |   17.29  |   13.95  |
 
+### Constant Folding 
+The table below shows runtime per System/Example combo
 
+| System/Example   |   -O0    |   -O1    |   -O2    |   -O3    | 
+| ---------------- | -------- | -------- | -------- | -------- |
+| PC/Optimized     | 3.062709 | 1.310089 | 0.000155 | 0.000183 |
+| PC/Unoptimized   | 3.069830 | 1.308761 | 0.000154 | 0.000154 |
+| Rasp/Optimized   | 9.197837 | 4.805766 | 0.000288 | 0.000290 |
+| Rasp/Unoptimized | 9.182641 | 4.804444 | 0.000304 | 0.000305 |
+
+Memory Usage was to insignificant to quantify 
 
 ## Challenges faced
 
