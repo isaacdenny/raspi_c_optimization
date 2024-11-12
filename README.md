@@ -164,7 +164,7 @@ The table below shows Memory Usage per System/Example combo in MB
 1. How did each optimization technique impact memory usage according to Massif,
 and why?
 
-Constant folding has minimal or no direct impact on memory usage itself. The SEE technique did not affect heap memory allocation as much as it affected instruction count and runtime. Runtime and instruction count heavily decreased when using SEE.
+Constant folding has minimal or no direct impact on memory usage itself. The SEE technique did not affect heap memory allocation as much as it affected instruction count and runtime. Runtime and instruction count heavily decreased when using SEE. Dead code elimination generally reduces memory usage. General code motion could slightly increase memory usage depending on how it is applied, but we did not see any change. Loop invariant code motion may increase memory usage slightly, but the net effect we saw was a substantial performance improvement.
 
 ---
 
