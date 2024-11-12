@@ -104,7 +104,7 @@ The table below shows runtime per System/Example combo
 
 Memory Usage was too insignificant to quantify 
 
-### Deadcode Elimination ***SEE***
+### Deadcode Elimination 
 
 The table below shows runtime per System/Example combo
 
