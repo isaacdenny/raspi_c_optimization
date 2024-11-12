@@ -18,4 +18,5 @@ int main() {
     for (int i=0; i < 4096; i++){
         isPrime(i);
     }
+    return 0;
 }
