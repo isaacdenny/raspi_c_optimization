@@ -15,8 +15,10 @@ int isPrime(int x) {
 }
 
 int main() {
-    for (int i=0; i < 4096; i++){
-        isPrime(i);
+    for (int i=0; i < 10000000; i++){
+        if (isPrime(i)) {
+            printf("%d\n", i);
+        }
     }
     return 0;
 }

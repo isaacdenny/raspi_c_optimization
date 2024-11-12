@@ -63,6 +63,35 @@ The table below shows total instruction count per System/Example combo in millio
 | Rasp/Optimized      |48.02      |17.78      |16.55      |16.55      |
 | Rasp/Unoptimized    |86.36      |31.22      |29.67      |19.52      |
 
+### Loop Unrolling Results
+
+The table below shows runtime per System/Example combo
+
+| System/Example      | -O0       | -O1       | -O2       | -O3       |
+|---------------------|-----------|-----------|-----------|-----------|
+| PC/Optimized        |0.618      |0.588      |0.572      |0.620      |
+| PC/Unoptimized      |0.644      |0.578      |0.626      |0.630      |
+| Rasp/Optimized      |1.494      |1.054      |1.035      |1.030      |
+| Rasp/Unoptimized    |1.066      |1.061      |1.053      |1.056      |
+
+The table below shows Memory Usage per System/Example combo in KB
+
+| System/Example      | -O0       | -O1       | -O2       | -O3       |
+|---------------------|-----------|-----------|-----------|-----------|
+| PC/Optimized        |1.008      |1.008      |1.008      |1.008      |
+| PC/Unoptimized      |1.008      |1.008      |1.008      |1.008      |
+| Rasp/Optimized      |1.008      |1.008      |1.008      |1.008      |
+| Rasp/Unoptimized    |1.008      |1.008      |1.008      |1.008      |
+
+The table below shows total instruction count per System/Example combo in millions
+
+| System/Example      | -O0       | -O1       | -O2       | -O3       |
+|---------------------|-----------|-----------|-----------|-----------|
+| PC/Optimized        |683.6      |632.7      |557.2      |557.2      |
+| PC/Unoptimized      |747.4      |663.7      |589.7      |589.7      |
+| Rasp/Optimized      |846.0      |439.6      |426.3      |426.3      |
+| Rasp/Unoptimized    |1045.0     |470.3      |458.8      |458.8      |
+
 ### Subexpression Elimination ***SEE***
 
 The table below shows runtime per System/Example combo
