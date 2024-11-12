@@ -166,6 +166,7 @@ and why?
 
 Constant folding has minimal or no direct impact on memory usage itself. The SEE technique did not affect heap memory allocation as much as it affected instruction count and runtime. Runtime and instruction count heavily decreased when using SEE. Dead code elimination generally reduces memory usage. General code motion could slightly increase memory usage depending on how it is applied, but we did not see any change. Loop invariant code motion may increase memory usage slightly, but the net effect we saw was a substantial performance improvement.
 
+Loop Unrolling actually seems to be counter-effective. Despite the total number of instructions often being hundreds of millions more in the unoptimized version, this does not seem to have impacted the total runtime. The unoptimized version was consistantly either on par with or even faster than the optimized version. This does not reflect the trends seen in the Dive Into Systems book.
 ---
 
 2. Which techniques provided the most improvement on the Raspberry Pi, and why?
