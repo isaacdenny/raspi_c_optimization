@@ -1,4 +1,4 @@
-#include<math.h>
+#include <math.h>
 // helper function: checks to see if a number is prime
 int isPrime(int x) {
     int i;
