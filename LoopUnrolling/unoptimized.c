@@ -13,3 +13,9 @@ int isPrime(int x) {
     }
     return 1; // otherwise it is
 }
+
+int main() {
+    for (int i=0; i < 4096; i++){
+        isPrime(i);
+    }
+}
