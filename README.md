@@ -3,12 +3,12 @@ A group project focused on different optimization techniques and levels in progr
 
 ## Assignments
 
-- [ ] Constant Folding - Graham
-- [ ] Loop Unrolling - Jaden
-- [ ] Dead Code Elimination - Bryce
-- [ ] Loop Invariant Code Motion - Nicky
-- [ ] Subexpression Elimination - Isaac
-- [ ] General Code Motion - All?
+- [ ] Constant Folding - [Graham](https://github.com/gmccabe21212)
+- [ ] Loop Unrolling - [Jaden](https://github.com/Vatvo)
+- [ ] Dead Code Elimination - [Bryce](https://github.com/BryceCrispy522)
+- [ ] Loop Invariant Code Motion - [Nicky](https://github.com/nickyrice04)
+- [ ] Subexpression Elimination - [Isaac](https://github.com/isaacdenny)
+- [ ] General Code Motion - [Jaden](https://github.com/Vatvo)
 
 ## Steps
 1. Add code examples to a folder titled your assignment:
@@ -34,7 +34,8 @@ loop_unrolling/
 - [ ] Raspberry Pi's - 95MB of user-available space
 
 ## Results
-### Loop Invariant Code Motion Results
+
+### Loop Invariant Code Motion
 
 The table below shows runtime per System/Example combo
 
@@ -63,7 +64,7 @@ The table below shows total instruction count per System/Example combo in millio
 | Rasp/Optimized      |48.02      |17.78      |16.55      |16.55      |
 | Rasp/Unoptimized    |86.36      |31.22      |29.67      |19.52      |
 
-### Loop Unrolling Results
+### Loop Unrolling
 
 The table below shows runtime per System/Example combo
 
@@ -135,7 +136,8 @@ Memory Usage was too insignificant to quantify
 
 ## Challenges faced
 
-TODO: challenges we faced 
+1. Learning Github - Code reviews, Pull Requests, avoiding merge conflicts
+2. Results were difficult to find in some cases (Constant Folding) because the compiler implements the technique immediately, rendering the examples identical
 
 ## Reflection Questions
 
