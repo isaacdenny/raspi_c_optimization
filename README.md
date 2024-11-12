@@ -164,36 +164,34 @@ The table below shows Memory Usage per System/Example combo in MB
 1. How did each optimization technique impact memory usage according to Massif,
 and why?
 
-The SEE technique did not affect heap memory allocation as much as it affected instruction count and runtime. Runtime and instruction count heavily decreased when using SEE.
+Constant folding has minimal or no direct impact on memory usage itself. The SEE technique did not affect heap memory allocation as much as it affected instruction count and runtime. Runtime and instruction count heavily decreased when using SEE.
 
 ---
 
 2. Which techniques provided the most improvement on the Raspberry Pi, and why?
 
-
+Loop Invariant Code Motion seemed to show the greatest improvement (about 5x) of runtime when implemented on the raspberry pi. In the extreme case, Dead Code Elimination also showed a decently sized improvement at about a 2 second difference in runtime for our example. 
 
 ---
 
 3. How does knowing these optimizations influence your coding approach, especially
 for devices like Raspberry Pi?
 
-Knowing these optimization techniques gives us a look underneath the hood of the compiler and helps us understand how memory can be affected by our coding principles.
-
-
+Knowing these optimization techniques gives us a look underneath the hood of the compiler and helps us understand how memory, runtime, and instruction count can be affected by our coding principles. When we are coding, we can make sure to use some of these principles to squeeze out a better runtime or memory complexity. Dead code elimination helps reduce the size of the codebase by removing unreachable or redundant code, which saves memory. Loop invariant code motion improves performance by moving calculations that don’t change across iterations outside of loops, reducing redundant computation. These optimizations are particularly effective in embedded systems, where both memory and CPU cycles are limited.
 
 ---
 
 4. How would you selectively apply these optimizations in memory-constrained
 environments?
 
-
+In memory-constrained environments like our raspberry pi, you need to be mindful of the trade-offs between performance gains and memory usage. Dead code elimination should always be applied first, as it reduces unused code without significant cost. Constant folding is also generally safe and beneficial, as it minimizes unnecessary computations. Loop invariant code motion is effective in critical loops but should be used judiciously to avoid excessive memory usage for variables that are moved outside the loop. Loop unrolling should be applied only to small loops, as it can increase code size and may not be suitable for large or complex loops.
 
 ---
 
 5. How does this knowledge affect algorithm development, and how would you apply
 it in real-world coding?
 
-Knowledge of certain principles like loop-invariant code motion can be a great optimization tool to sqeeze runtime out of algorithms in an interview or work environment. 
+Understanding these optimizations affects how we design algorithms for embedded systems like the raspberry pi. Constant folding and dead code elimination are low-cost optimizations that should be applied wherever possible without sacrificing clarity. For performance-critical sections, loop invariant code motion and loop unrolling can significantly boost efficiency. In real-world coding, these optimizations should be applied selectively based on profiling results, balancing code readability with performance and memory constraints.
 
 
 ---
