@@ -3,12 +3,12 @@ A group project focused on different optimization techniques and levels in progr
 
 ## Assignments
 
-- [ ] Constant Folding - Graham
-- [ ] Loop Unrolling - Jaden
-- [ ] Dead Code Elimination - Bryce
-- [ ] Loop Invariant Code Motion - Nicky
-- [ ] Subexpression Elimination - Isaac
-- [ ] General Code Motion - All?
+- [ ] Constant Folding - [Graham](https://github.com/gmccabe21212)
+- [ ] Loop Unrolling - [Jaden](https://github.com/Vatvo)
+- [ ] Dead Code Elimination - [Bryce](https://github.com/BryceCrispy522)
+- [ ] Loop Invariant Code Motion - [Nicky](https://github.com/nickyrice04)
+- [ ] Subexpression Elimination - [Isaac](https://github.com/isaacdenny)
+- [ ] General Code Motion - [Jaden](https://github.com/Vatvo)
 
 ## Steps
 1. Add code examples to a folder titled your assignment:
@@ -34,7 +34,8 @@ loop_unrolling/
 - [ ] Raspberry Pi's - 95MB of user-available space
 
 ## Results
-### Loop Invariant Code Motion Results
+
+### Loop Invariant Code Motion
 
 The table below shows runtime per System/Example combo
 
@@ -62,6 +63,35 @@ The table below shows total instruction count per System/Example combo in millio
 | PC/Unoptimized      |78.40      |52.22      |40.26      |27.46      |
 | Rasp/Optimized      |48.02      |17.78      |16.55      |16.55      |
 | Rasp/Unoptimized    |86.36      |31.22      |29.67      |19.52      |
+
+### Loop Unrolling
+
+The table below shows runtime per System/Example combo
+
+| System/Example      | -O0       | -O1       | -O2       | -O3       |
+|---------------------|-----------|-----------|-----------|-----------|
+| PC/Optimized        |0.618      |0.588      |0.572      |0.620      |
+| PC/Unoptimized      |0.644      |0.578      |0.626      |0.630      |
+| Rasp/Optimized      |1.494      |1.054      |1.035      |1.030      |
+| Rasp/Unoptimized    |1.066      |1.061      |1.053      |1.056      |
+
+The table below shows Memory Usage per System/Example combo in KB
+
+| System/Example      | -O0       | -O1       | -O2       | -O3       |
+|---------------------|-----------|-----------|-----------|-----------|
+| PC/Optimized        |1.008      |1.008      |1.008      |1.008      |
+| PC/Unoptimized      |1.008      |1.008      |1.008      |1.008      |
+| Rasp/Optimized      |1.008      |1.008      |1.008      |1.008      |
+| Rasp/Unoptimized    |1.008      |1.008      |1.008      |1.008      |
+
+The table below shows total instruction count per System/Example combo in millions
+
+| System/Example      | -O0       | -O1       | -O2       | -O3       |
+|---------------------|-----------|-----------|-----------|-----------|
+| PC/Optimized        |683.6      |632.7      |557.2      |557.2      |
+| PC/Unoptimized      |747.4      |663.7      |589.7      |589.7      |
+| Rasp/Optimized      |846.0      |439.6      |426.3      |426.3      |
+| Rasp/Unoptimized    |1045.0     |470.3      |458.8      |458.8      |
 
 ### Subexpression Elimination ***SEE***
 
@@ -126,7 +156,8 @@ The table below shows Memory Usage per System/Example combo in MB
 
 ## Challenges faced
 
-TODO: challenges we faced 
+1. Learning Github - Code reviews, Pull Requests, avoiding merge conflicts
+2. Results were difficult to find in some cases (Constant Folding) because the compiler implements the technique immediately, rendering the examples identical
 
 ## Reflection Questions
 
