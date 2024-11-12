@@ -1,3 +1,7 @@
+*
+!/**/
+!*.*
+
 # Prerequisites
 *.d
 
@@ -50,6 +54,6 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
-.DS_Store
-GeneralCodeMotion/.DS_Store
-LoopUnrolling/.DS_Store
+
+*.DS_Store
+massif_results/
