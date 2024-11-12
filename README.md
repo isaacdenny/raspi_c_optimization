@@ -34,7 +34,7 @@ loop_unrolling/
 - [ ] Raspberry Pi's - 95MB of user-available space
 
 ## Results
-## Loop Invariant Code Motion Results
+### Loop Invariant Code Motion Results
 
 The table below shows runtime per System/Example combo
 
@@ -102,7 +102,7 @@ The table below shows runtime per System/Example combo
 | Rasp/Optimized   | 9.197837 | 4.805766 | 0.000288 | 0.000290 |
 | Rasp/Unoptimized | 9.182641 | 4.804444 | 0.000304 | 0.000305 |
 
-Memory Usage was to insignificant to quantify 
+Memory Usage was too insignificant to quantify 
 
 ## Challenges faced
 
